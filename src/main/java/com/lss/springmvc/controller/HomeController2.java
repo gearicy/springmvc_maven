@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping(path = "/home")
 public class HomeController2 {
-    @RequestMapping(path = "/index")
+    @RequestMapping(path = "/index2")
     public String index(Model model) {
         model.addAttribute("message", "Hello Spring MVC!");
         return "home/index";
