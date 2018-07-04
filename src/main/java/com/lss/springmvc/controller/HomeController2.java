@@ -11,6 +11,7 @@ public class HomeController2 {
     public String index(Model model) {
         model.addAttribute("message", "Hello Spring MVC!");
         System.out.println("hsdfak");
+        System.out.println("哈哈哈");
         return "home/index";
 
     }
