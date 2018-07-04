@@ -13,6 +13,5 @@
   </head>
   <body>
     Hello JSP
-  haha123fsafa
   </body>
 </html>
