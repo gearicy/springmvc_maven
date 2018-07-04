@@ -10,6 +10,8 @@ public class HomeController2 {
     @RequestMapping(path = "/index1")
     public String index(Model model) {
         model.addAttribute("message", "Hello Spring MVC!");
+        System.out.println("hsdfak");
         return "home/index";
+
     }
 }
